@@ -1,6 +1,6 @@
 # CRUD de Expedientes – Backend (Spring Boot + JWT + PostgreSQL)
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Java 21
 - Spring Boot 3.5.7
@@ -42,7 +42,7 @@ Register request
 
 ## Endpoitns para CRUD - expediente (requiere Bearer token - JWT)
 
-#### **GET /expediente**
+### *GET /expediente*
 Obtiene todos los expedientes.
 
 Response ejemplo:
@@ -63,10 +63,10 @@ Response ejemplo:
 ]
 ```
 
-#### **GET /expediente/{id}**
+### *GET /expediente/{id}*
 Obtiene un expediente por UUID.
 
-#### **POST /expediente**
+### *POST /expediente*
 Crea un expediente nuevo.
 
 Body ejemplo:
@@ -88,10 +88,10 @@ Response ejemplo:
 }
 ````
 
-#### **PATCH /expediente/{id}**
+### *PATCH /expediente/{id}*
 Actualiza un expedientes, campos opcionales: nombre, descripcion, estado.
 
-#### **DELETE /expediente**
+### *DELETE /expediente*
 Elimina un expediente.
 
 ## Instalacion y ejecucion
